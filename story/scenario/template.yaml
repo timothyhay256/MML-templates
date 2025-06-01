@@ -1,0 +1,134 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 351856902256450410
+ 1 string m_Name = "event_129_01"
+ 1 string ScenarioId = "event_129_01"
+ 0 ScenarioCharacterResourceSet AppearCharacters
+  0 Array Array (8 items)
+   0 int size = 8
+   [0]
+    0 ScenarioCharacterResourceSet data
+     0 int Character2dId = 286
+     1 string CostumeType = "v2_09kohane_casual"
+ 0 ScenarioCharacterLayout FirstLayout
+  0 Array Array (0 items)
+   0 int size = 0
+ 1 string FirstBgm = "bgm00000"
+ 1 string EpisodeMusicVideoId = ""
+ 1 string FirstBackground = "bg_c001101"
+ 0 int FirstCharacterLayoutMode = 0
+
+ 0 ScenarioSnippet Snippets
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 ScenarioSnippet data
+     0 int Index = 0
+     0 int Action = 6
+     0 int ProgressBehavior = 1
+     0 int ReferenceIndex = 0
+     0 float Delay = 0
+
+ 0 ScenarioSnippetTalk TalkData
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 ScenarioSnippetTalk data
+     0 ScenarioSnippetTalkCharacter TalkCharacters
+      0 Array Array (1 items)
+       0 int size = 1
+       [0]
+        0 ScenarioSnippetTalkCharacter data
+         0 int Character2dId = 286
+     1 string WindowDisplayName = "Kohane"
+     1 string Body = "Text goes here"
+     0 int TalkTention = 0
+     0 int LipSync = 1
+     0 int MotionChangeFrom = 1
+     0 ScenarioSnippetTalkMotion Motions
+      0 Array Array (1 items)
+       0 int size = 1
+       [0]
+        0 ScenarioSnippetTalkMotion data
+         0 int Character2dId = 286
+         1 string MotionName = "w-normal15-shy"
+         1 string FacialName = "face_smallmouth_01"
+         0 float TimingSyncValue = 0
+     0 ScenarioSnippetTalkVoice Voices
+      0 Array Array (1 items)
+       0 int size = 1
+       [0]
+        0 ScenarioSnippetTalkVoice data
+         0 int Character2dId = 286
+         1 string VoiceId = "voice_ev_street_17_01_01_09"
+         0 float Volume = 1
+     0 float Speed = 0
+     0 int FontSize = 0
+     1 UInt8 WhenFinishCloseWindow = 1
+     1 UInt8 RequirePlayEffect = 0
+     0 int EffectReferenceIdx = 0
+     1 UInt8 RequirePlaySound = 0
+     0 int SoundReferenceIdx = 0
+     0 float TargetValueScale = 0
+     
+ 0 ScenarioSnippetCharacterLayout LayoutData
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 ScenarioSnippetCharacterLayout data
+     0 int Type = 2
+     0 int SideFrom = 4
+     0 float SideFromOffsetX = 0
+     0 int SideTo = 4
+     0 float SideToOffsetX = 0
+     0 int DepthType = 0
+     0 int Character2dId = 286
+     1 string CostumeType = "v2_09kohane_casual"
+     1 string MotionName = "w-normal15-tilthead"
+     1 string FacialName = "face_smallmouth_01"
+     0 int MoveSpeedType = 0
+     
+ 0 ScenarioSnippetSpecialEffect SpecialEffectData
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 ScenarioSnippetSpecialEffect data
+     0 int EffectType = 8
+     1 string StringVal = "Morning"
+     1 string StringValSub = ""
+     0 float Duration = 0
+     0 int IntVal = 0
+
+ 0 ScenarioSnippetSound SoundData
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 ScenarioSnippetSound data
+     0 int PlayMode = 0
+     1 string Bgm = ""
+     1 string Se = "se_walk_women_001_1"
+     0 float Volume = 1
+     1 string SeBundleName = ""
+     0 float Duration = 0
+
+ 0 vector NeedBundleNames
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    1 string data = "scenario/background/bg_c001101"
+
+ 0 vector IncludeSoundDataBundleNames
+  1 Array Array (0 items)
+   0 int size = 0
+
+ 0 ScenarioSnippetCharacterLayoutMode ScenarioSnippetCharacterLayoutModes
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 ScenarioSnippetCharacterLayoutMode data
+     0 int CharacterLayoutMode = 3
