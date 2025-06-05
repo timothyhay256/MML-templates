@@ -9,8 +9,8 @@
  1 string m_Name = "event_129_01"
  1 string ScenarioId = "event_129_01"
  0 ScenarioCharacterResourceSet AppearCharacters
-  0 Array Array (8 items)
-   0 int size = 8
+  0 Array Array (1 items)
+   0 int size = 1
    [0]
     0 ScenarioCharacterResourceSet data
      0 int Character2dId = 286
